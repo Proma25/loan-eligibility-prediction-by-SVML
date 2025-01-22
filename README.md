@@ -5,19 +5,19 @@
 **PROPOSED METHODOLOGY**:
 Data lays the foundation of the project. 
 The dataset contains 13 attributes, and Loan_ Status is the target variable,
-1	Loan	A unique id 
-2	Gender	Gender of the applicant Male/female
-3	Marital status	Marital Status of the applicant, values will be Yes/ No
-4	Dependence	It tells whether the applicant has any dependents or not.
-5	Education	It will tell us whether the applicant is Graduated or not.
-6	Self_Employed	This defines that the applicant is self-employed i.e. Yes/ No
-7	ApplicantIncome	Applicant income
-8	CoapplicantIncome	Co-applicant income
-9	LoanAmount	Loan amount (in thousands)
-10	Loan_Amount_Term	Terms of loan (in months)
-11	Credit_History	Credit history of individual’s repayment of their debts
-12	Property_ Area	Area of property i.e. Rural/Urban/Semi-urban 
-13	Loan_status	Status of Loan Approved or not i.e. Y- Yes, N-No 
+	Loan	A unique id 
+	Gender	Gender of the applicant Male/female
+	Marital status	Marital Status of the applicant, values will be Yes/ No
+	Dependence	It tells whether the applicant has any dependents or not.
+	Education	It will tell us whether the applicant is Graduated or not.
+	Self_Employed	This defines that the applicant is self-employed i.e. Yes/ No
+	ApplicantIncome	Applicant income
+	CoapplicantIncome	Co-applicant income
+	LoanAmount	Loan amount (in thousands)
+	Loan_Amount_Term	Terms of loan (in months)
+	Credit_History	Credit history of individual’s repayment of their debts
+	Property_ Area	Area of property i.e. Rural/Urban/Semi-urban 
+	Loan_status	Status of Loan Approved or not i.e. Y- Yes, N-No 
 
  **** ALGORITHMS USED:******
 	Machine is trained using labelled data
