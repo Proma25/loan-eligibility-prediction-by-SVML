@@ -55,13 +55,15 @@ Lesser the number of dependents , more the people are eligible.
 **Challenges faced:**
 1) The data for loan amount contains a few outliers and the data appears right skewed. To fix this challenge, the logarithmic values of the loan amount would be useful.
 2) Also, there appears some missing values. The categoriacal values which appears to be missing, are replaced by modal values and the numerical data is replaced by mean values.
-
+**Supervised MAchine learning algorithm:**
 According to the need of the data, we need to classify whether or not a person is eligible for loan, we need to specify classification algorithms, and check their accuracy.
 To start with, 
 	DECISION TREE ALGORITHM: This is actually a classifier. But the accuracy is 70%, it is required to look for some better means.
         K Nearest Neighbours: The accuracy come out to be 80%, there re scopes of better accuracy.
 	Naive Bayes: The accuracy comes out to be 83%, the best among the three.
 
+
+**Final Outcome:**
  result_df = pd.DataFrame({'Loan_ID': df['Loan_ID'], 'Prediction': pred})
 print(result_df),,,,,,,,,,,,,,,,, The final Outcome : The loan_id s showing 1 are the ones which are eligible for loan and loan_id s showing 0 are the ones which are ineligible for loan.
 After the completion, it is still advisable to check each of the eligible applicants hitory and background before the final approval.
